@@ -179,19 +179,6 @@ a {
   text-shadow: 0 8px 28px rgba(0, 0, 0, 0.18);
 }
 
-.hero-phone {
-  display: inline-block;
-  margin: -8px 0 18px;
-  color: #f4d88a;
-  font-size: 1rem;
-  font-weight: 700;
-}
-
-.hero-phone:hover,
-.hero-phone:focus-visible {
-  color: #fff3c7;
-}
-
 .lead {
   font-size: 1.08rem;
   color: rgba(255, 255, 255, 0.82);
@@ -575,6 +562,21 @@ a {
   color: rgba(255, 255, 255, 0.68);
   font-size: 0.88rem;
   letter-spacing: 0.04em;
+}
+
+.designer-phone {
+  margin: 8px 0 0;
+}
+
+.designer-phone a {
+  color: #f4d88a;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.designer-phone a:hover,
+.designer-phone a:focus-visible {
+  color: #fff3c7;
 }
 
 @media (max-width: 900px) {

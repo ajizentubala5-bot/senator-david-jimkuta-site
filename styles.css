@@ -557,6 +557,13 @@ a {
   padding: 22px 0;
 }
 
+.designer-credit {
+  margin: 8px 0 0;
+  color: rgba(255, 255, 255, 0.68);
+  font-size: 0.88rem;
+  letter-spacing: 0.04em;
+}
+
 @media (max-width: 900px) {
   .hero-grid,
   .two-column,

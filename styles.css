@@ -87,6 +87,19 @@ a {
   color: var(--muted);
 }
 
+.brand-phone {
+  display: block;
+  margin-top: 4px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.brand-phone:hover,
+.brand-phone:focus-visible {
+  color: var(--secondary);
+}
+
 .main-nav {
   display: flex;
   align-items: center;

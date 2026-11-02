@@ -87,19 +87,6 @@ a {
   color: var(--muted);
 }
 
-.brand-phone {
-  display: block;
-  margin-top: 4px;
-  font-size: 0.78rem;
-  font-weight: 700;
-  color: var(--primary);
-}
-
-.brand-phone:hover,
-.brand-phone:focus-visible {
-  color: var(--secondary);
-}
-
 .main-nav {
   display: flex;
   align-items: center;
@@ -190,6 +177,19 @@ a {
   font-size: clamp(2.5rem, 4vw, 4.5rem);
   color: var(--white);
   text-shadow: 0 8px 28px rgba(0, 0, 0, 0.18);
+}
+
+.hero-phone {
+  display: inline-block;
+  margin: -8px 0 18px;
+  color: #f4d88a;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.hero-phone:hover,
+.hero-phone:focus-visible {
+  color: #fff3c7;
 }
 
 .lead {

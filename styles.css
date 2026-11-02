@@ -509,7 +509,7 @@ a {
 }
 
 .gallery-grid {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   margin-top: 26px;
 }
 
@@ -518,6 +518,7 @@ a {
   width: 100%;
   height: 260px;
   object-fit: cover;
+  box-shadow: 0 12px 24px rgba(13, 45, 94, 0.08);
 }
 
 .site-footer {
